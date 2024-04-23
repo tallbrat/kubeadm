@@ -1,0 +1,83 @@
+2024-04-22T16:59:36.545+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic:
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+  | \tstatus code: 400, request id: cfe22ede-6cca-4b71-b9ee-e35724e24a03
+   tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=ed623987-683b-6693-5521-3203b7b7de02 @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 @module=sdk.proto diagnostic_detail="" diagnostic_severity=ERROR tf_proto_version=5.4 tf_resource_type=aws_instance tf_rpc=ApplyResourceChange timestamp="2024-04-22T16:59:36.545+0530"
+2024-04-22T16:59:36.580+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+  | \tstatus code: 400, request id: f726cbbb-7f03-48e7-98d3-784045cd5f4d
+   tf_proto_version=5.4 tf_provider_addr=registry.terraform.io/hashicorp/aws tf_resource_type=aws_instance tf_rpc=ApplyResourceChange @module=sdk.proto diagnostic_detail="" diagnostic_severity=ERROR tf_req_id=de5002c3-5184-1755-382a-7e27a1fa0a2d timestamp="2024-04-22T16:59:36.579+0530"
+2024-04-22T16:59:36.624+0530 [ERROR] vertex "aws_instance.worker_node[0]" error: creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+	status code: 400, request id: cfe22ede-6cca-4b71-b9ee-e35724e24a03
+2024-04-22T16:59:36.627+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic:
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+  | \tstatus code: 400, request id: b8329f68-fe80-4ee6-b155-c84a3aed423b
+   tf_resource_type=aws_instance @module=sdk.proto diagnostic_severity=ERROR tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=83166000-abb9-557c-f52e-63553aeb9827 tf_rpc=ApplyResourceChange @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 diagnostic_detail="" tf_proto_version=5.4 timestamp="2024-04-22T16:59:36.626+0530"
+2024-04-22T16:59:36.640+0530 [ERROR] vertex "aws_instance.control_node" error: creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+	status code: 400, request id: f726cbbb-7f03-48e7-98d3-784045cd5f4d
+2024-04-22T16:59:36.650+0530 [ERROR] vertex "aws_instance.worker_node[1]" error: creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+	status code: 400, request id: b8329f68-fe80-4ee6-b155-c84a3aed423b
+2024-04-22T17:08:56.491+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic:
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+  | \tstatus code: 400, request id: 055a8c66-bf8c-4225-bb14-312df0086b42
+   tf_provider_addr=registry.terraform.io/hashicorp/aws tf_resource_type=aws_instance tf_rpc=ApplyResourceChange @module=sdk.proto diagnostic_detail="" diagnostic_severity=ERROR tf_req_id=85c2faa7-7c8d-ec1f-9801-039005c2fa79 @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 tf_proto_version=5.4 timestamp="2024-04-22T17:08:56.491+0530"
+2024-04-22T17:08:56.492+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic: diagnostic_detail="" tf_proto_version=5.4 tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=7e974bc4-9826-49e1-38f4-4fb67d19ee35 @module=sdk.proto
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+  | \tstatus code: 400, request id: 4fdef217-2ef9-4db3-8e0e-a530d1f61328
+   tf_resource_type=aws_instance tf_rpc=ApplyResourceChange @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 diagnostic_severity=ERROR timestamp="2024-04-22T17:08:56.491+0530"
+2024-04-22T17:08:56.506+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic: diagnostic_severity=ERROR tf_req_id=5eb223f4-de62-fe37-cc9a-b80245958488 tf_rpc=ApplyResourceChange
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+  | \tstatus code: 400, request id: d0683575-1c9c-4b9e-971c-38594eecb508
+   tf_proto_version=5.4 tf_provider_addr=registry.terraform.io/hashicorp/aws @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 @module=sdk.proto diagnostic_detail="" tf_resource_type=aws_instance timestamp="2024-04-22T17:08:56.506+0530"
+2024-04-22T17:08:56.574+0530 [ERROR] vertex "aws_instance.worker_node[0]" error: creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+	status code: 400, request id: 055a8c66-bf8c-4225-bb14-312df0086b42
+2024-04-22T17:08:56.611+0530 [ERROR] vertex "aws_instance.control_node" error: creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+	status code: 400, request id: 4fdef217-2ef9-4db3-8e0e-a530d1f61328
+2024-04-22T17:08:56.626+0530 [ERROR] vertex "aws_instance.worker_node[1]" error: creating EC2 Instance: InvalidParameterValue: Value () for parameter groupId is invalid. The value cannot be empty
+	status code: 400, request id: d0683575-1c9c-4b9e-971c-38594eecb508
+2024-04-22T17:39:45.396+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic:
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameter: Security group sg-050eded150a19a351 and subnet subnet-0a1b2d6cae28b1728 belong to different networks.
+  | \tstatus code: 400, request id: 0cf7c1e1-019e-4171-97b0-85ddf0e526cd
+   tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=ddbcae45-3d0a-76d7-a82d-9b77ce71a62f tf_resource_type=aws_instance tf_rpc=ApplyResourceChange @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 diagnostic_detail="" diagnostic_severity=ERROR tf_proto_version=5.4 @module=sdk.proto timestamp="2024-04-22T17:39:45.396+0530"
+2024-04-22T17:39:45.407+0530 [ERROR] vertex "aws_instance.control_node" error: creating EC2 Instance: InvalidParameter: Security group sg-050eded150a19a351 and subnet subnet-0a1b2d6cae28b1728 belong to different networks.
+	status code: 400, request id: 0cf7c1e1-019e-4171-97b0-85ddf0e526cd
+2024-04-22T17:39:45.458+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic:
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameter: Security group sg-066cf602a1c886b42 and subnet subnet-0a1b2d6cae28b1728 belong to different networks.
+  | \tstatus code: 400, request id: 341ade37-04d4-425b-8384-30fd2cea0874
+   tf_proto_version=5.4 tf_req_id=f04ada06-5e68-d29a-1c5b-dcb7f361219f tf_resource_type=aws_instance @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 @module=sdk.proto diagnostic_detail="" tf_rpc=ApplyResourceChange diagnostic_severity=ERROR tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp="2024-04-22T17:39:45.458+0530"
+2024-04-22T17:39:45.467+0530 [ERROR] vertex "aws_instance.worker_node[0]" error: creating EC2 Instance: InvalidParameter: Security group sg-066cf602a1c886b42 and subnet subnet-0a1b2d6cae28b1728 belong to different networks.
+	status code: 400, request id: 341ade37-04d4-425b-8384-30fd2cea0874
+2024-04-22T17:39:45.482+0530 [ERROR] provider.terraform-provider-aws_v5.46.0_x5: Response contains error diagnostic: @module=sdk.proto
+  diagnostic_summary=
+  | creating EC2 Instance: InvalidParameter: Security group sg-066cf602a1c886b42 and subnet subnet-0a1b2d6cae28b1728 belong to different networks.
+  | \tstatus code: 400, request id: 080abc02-55d5-449f-b9e5-49a297a1a6ae
+   tf_proto_version=5.4 tf_req_id=90bffaf1-a29a-aff9-8c81-bb411b7ff6d4 tf_resource_type=aws_instance tf_rpc=ApplyResourceChange @caller=github.com/hashicorp/terraform-plugin-go@v0.22.1/tfprotov5/internal/diag/diagnostics.go:58 diagnostic_detail="" diagnostic_severity=ERROR tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp="2024-04-22T17:39:45.482+0530"
+2024-04-22T17:39:45.489+0530 [ERROR] vertex "aws_instance.worker_node[1]" error: creating EC2 Instance: InvalidParameter: Security group sg-066cf602a1c886b42 and subnet subnet-0a1b2d6cae28b1728 belong to different networks.
+	status code: 400, request id: 080abc02-55d5-449f-b9e5-49a297a1a6ae
+2024-04-22T17:45:07.557+0530 [ERROR] vertex "aws_instance.control_node" error: Unsupported attribute
+2024-04-22T17:45:07.557+0530 [ERROR] vertex "aws_instance.control_node (expand)" error: Unsupported attribute
+2024-04-22T17:45:07.557+0530 [ERROR] vertex "aws_instance.worker_node[0]" error: Unsupported attribute
+2024-04-22T17:45:07.558+0530 [ERROR] vertex "aws_instance.worker_node[1]" error: Unsupported attribute
+2024-04-22T17:45:07.558+0530 [ERROR] vertex "aws_instance.worker_node (expand)" error: Unsupported attribute
+2024-04-22T17:45:07.558+0530 [ERROR] vertex "aws_instance.worker_node (expand)" error: Unsupported attribute
+2024-04-22T17:47:05.947+0530 [ERROR] vertex "aws_instance.worker_node[0]" error: Incorrect attribute value type
+2024-04-22T17:47:05.947+0530 [ERROR] vertex "aws_instance.worker_node[1]" error: Incorrect attribute value type
+2024-04-22T17:47:05.947+0530 [ERROR] vertex "aws_instance.worker_node (expand)" error: Incorrect attribute value type
+2024-04-22T17:47:05.947+0530 [ERROR] vertex "aws_instance.worker_node (expand)" error: Incorrect attribute value type
+2024-04-22T17:47:06.031+0530 [ERROR] vertex "aws_instance.control_node" error: Incorrect attribute value type
+2024-04-22T17:47:06.032+0530 [ERROR] vertex "aws_instance.control_node (expand)" error: Incorrect attribute value type
+2024-04-22T17:51:07.384+0530 [ERROR] vertex "aws_instance.control_node" error: Incorrect attribute value type
+2024-04-22T17:51:07.384+0530 [ERROR] vertex "aws_instance.control_node (expand)" error: Incorrect attribute value type
+2024-04-22T17:51:07.524+0530 [ERROR] vertex "aws_instance.worker_node[1]" error: Incorrect attribute value type
+2024-04-22T17:51:07.525+0530 [ERROR] vertex "aws_instance.worker_node[0]" error: Incorrect attribute value type
+2024-04-22T17:51:07.525+0530 [ERROR] vertex "aws_instance.worker_node (expand)" error: Incorrect attribute value type
+2024-04-22T17:51:07.525+0530 [ERROR] vertex "aws_instance.worker_node (expand)" error: Incorrect attribute value type
+2024-04-22T17:51:47.997+0530 [ERROR] vertex "aws_instance.worker_node" error: Incorrect attribute value type
+2024-04-22T17:51:47.998+0530 [ERROR] vertex "aws_instance.control_node" error: Incorrect attribute value type
